@@ -4,8 +4,8 @@ import (
 	"os"
 	"os/exec"
 
-	t "github.com/pablotrianda/tasks/pkg/tasks"
-	c "github.com/pablotrianda/tasks/pkg/config"
+	t "github.com/pablotrianda/tasks/src/pkg/tasks"
+	c "github.com/pablotrianda/tasks/src/pkg/config"
 )
 
 
