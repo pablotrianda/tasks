@@ -39,7 +39,7 @@ func build(ctx context.Context) error {
 
      // define the application build command
     path := "build/"
-    golang = golang.WithExec([]string{"go", "build", "-o",path})
+    golang = golang.WithExec([]string{"go", "build", "-o", path+"tasks", "src/cmd/main.go"})
 
     // get reference to build output directory in container
     output := golang.Directory(path)
